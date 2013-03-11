@@ -4,6 +4,8 @@ var Map = {
 	
 	map: {},
 	
+	items: [],
+	
 	init: function(w,h){
 		this.width = w || this.width;
 		this.height = h || this.height;
